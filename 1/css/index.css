@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+}
+
+.house {
+	position: relative;
+	overflow: hidden;
+	overflow-x: scroll;
+	height: 100%;
+}
+.house img {
+	height: 100%;
+}
+.house a {
+	position: absolute;
+	/* background-color: rgba(0, 0, 0, 0.3); */
+}
+.house .house1 {
+	left: 820px;
+	bottom: 104px;
+	width: 350px;
+	height: 240px;
+}
+.house .house2 {
+	top: 30px;
+	left: 1020px;
+	width: 360px;
+	height: 240px;
+}
+.house .house3 {
+	bottom: 113px;
+	left: 100px;
+	width: 400px;
+	height: 256px;
+}
